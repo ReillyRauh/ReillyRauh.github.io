@@ -1,0 +1,79 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    padding: 10px;
+    font-size: 50px;
+}
+
+h2 {
+    text-align: center;
+    color: black;
+    padding: 10px;
+}
+
+h3 {
+    text-align: center;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.option {
+    padding: 20px 20px;
+    background-color: cornflowerblue;
+    color: white;
+    transition: opacity 2s;
+}
+
+#options {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    display: none;
+    opacity: 100%;
+}
+
+#open-box {
+    cursor: pointer;
+}
+
+#cheatsheet {
+    background-image: url(./images/R.png);
+}
+
+#dasmotos {
+    background-image: url(./images/finnish.jpeg);
+}
+
+#ccf {
+    background-image: url(./images/letters.jpg);
+}
+
+#blog {
+    background-image: url(https://cdn2.newsok.biz/cache/r960-7b8d2ba5d3d17581b093ec811f525ff6.jpg);
+    overflow: hidden;
+}
+
+#teacozy {
+    background-image: url(./images/636311326049773956-UC.jpg)
+}
+
+.option:hover {
+    text-decoration: underline;
+    opacity: 50%;
+}
+
+.option a:hover {
+    color: blue;
+    opacity: 100%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
