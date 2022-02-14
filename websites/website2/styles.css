@@ -1,0 +1,177 @@
+/* * {
+    font-family: Helvetica, Arial, sans-serif;
+} */
+
+h1 {
+    top: 10px;
+    left: 5px;
+    position: relative;
+}
+
+h2 {
+    padding-left: 5px;
+}
+
+h3 {
+    padding-top: 10px;
+}
+
+body {
+    margin: 0 10%;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+li {
+    font-size: 15px;
+    padding-bottom: 3px;
+}
+
+nav {
+    background-color: cornflowerblue;
+    position: sticky;
+    width: 100%;
+    top: 0%;
+    margin-bottom: 10px;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    display: inline;
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    border-left: 2px solid white;
+}
+
+li a:hover {
+    background-color: lightblue;
+}
+
+footer {
+    background-color: cornflowerblue;
+    bottom: 0;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+footer p {
+    display: inline;
+    color: white;
+    font-size: 10px;
+    margin-left: 5px;
+}
+
+.texbody {
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.color-container {
+    width: 100%;
+}
+
+.cornflowerblue {
+    background-color: cornflowerblue;
+    color: #FFF
+}
+
+.color-panel {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+}
+
+.gold {
+    background-color: #FFD700;
+    color: rgb(0, 0, 0);
+}
+
+.navy {
+    background-color: #000080;
+    color: #FFF;
+}
+
+.red {
+    background-color: #FF0000;
+    color: #FFF;
+}
+
+.times-new {
+    font-family: 'Times New Roman';
+    font-weight: 400;
+}
+
+.helvet {
+    font-family: 'Helvetica';
+    font-weight: 400;
+}
+
+.arial {
+    font-family: 'Arial';
+    font-weight: 400;
+}
+
+.bold {
+    font-weight: 800;
+}
+
+.head {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.font-panel {
+    display: inline-block;
+    width: 30%;
+    padding-left: 20px;
+}
+
+.style-panel {
+    display: block;
+    padding-left: 20px;
+}
+
+.he1 {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.he2 {
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.pe {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.sec {
+    text-align: right;
+}

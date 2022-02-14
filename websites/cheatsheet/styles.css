@@ -1,0 +1,66 @@
+* {
+    font-family: Helvetica;
+    cursor: default;
+}
+
+ul {
+    list-style-type: none;
+    background-color: lightblue;
+}
+
+li {
+    float: left;
+    color: white;
+    font-weight: bold;
+}
+
+a {
+    display: block;
+    padding: 8px;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: cornflowerblue;
+    color: white;
+    text-align: center;
+}
+
+table {
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 100%;
+}
+
+th {
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 20px
+}
+
+td {
+    text-align: center;
+    font-size: 20px;
+}
+
+tr {
+    border-right-style: 2px solid black;
+}
+
+tr:nth-child(even) {
+    background-color: lightgray;
+}
+
+nav ul, nav li{
+    position: aboslute;
+    background-color: cornflowerblue;
+    color: white;
+}
