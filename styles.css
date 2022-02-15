@@ -68,7 +68,11 @@ h4 {
 }
 
 #teacozy {
-    background-image: url(./images/636311326049773956-UC.jpg)
+    background-image: url(./websites/tea-cozy/images/img-locations-background.webp);
+}
+
+#up-cheat {
+    background-image: url(./images/636311326049773956-UC.jpg);
 }
 
 .option:hover {
