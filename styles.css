@@ -73,6 +73,7 @@ h4 {
 
 #up-cheat {
     background-image: url(./images/636311326049773956-UC.jpg);
+    cursor: not-allowed;
 }
 
 .option:hover {
