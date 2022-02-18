@@ -15,6 +15,15 @@ nav a {
     text-decoration: none;
     color: white;
     font-weight: bold;
+    padding-right: 40px;
+    border: 2px solid white;
+    border-radius: 10px;
+    transition: color 2s;
+}
+
+nav a:hover {
+    color: black; 
+    background-color: white;
 }
 
 nav {
@@ -30,6 +39,25 @@ footer {
     padding: 0.1px;
 }
 
-#index h1 {
+.index h1 {
     text-align: center;
+}
+
+table {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 100%;
+}
+
+th {
+    font-size: 20px
+}
+
+tr {
+    border-right-style: 2px solid black;
+}
+
+tr:nth-child(even) {
+    background-color: black;
+    color: white;
 }
