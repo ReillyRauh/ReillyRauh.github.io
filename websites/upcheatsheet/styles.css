@@ -50,14 +50,15 @@ table {
 }
 
 th {
-    font-size: 20px
+    font-size: 20px;
+    border-bottom: 2px solid black;
 }
 
 tr {
-    border-right-style: 2px solid black;
+    border-right: 2px solid black;
 }
 
 tr:nth-child(even) {
-    background-color: black;
+    background-color: darkgrey;
     color: white;
 }
