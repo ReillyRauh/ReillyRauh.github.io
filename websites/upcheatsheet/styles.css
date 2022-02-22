@@ -13,16 +13,24 @@ nav h1 {
 nav a {
     display: inline-block;
     text-decoration: none;
-    color: white;
+    background-color: black;
     font-weight: bold;
     padding-right: 40px;
     border: 2px solid white;
     border-radius: 10px;
-    transition: color 2s;
+    transition: background-color 1s;
+}
+
+nav ul {
+    color: white;
+    transition: color 1s;
+}
+
+nav ul:hover {
+    color: black; 
 }
 
 nav a:hover {
-    color: black; 
     background-color: white;
 }
 
@@ -61,4 +69,12 @@ tr {
 tr:nth-child(even) {
     background-color: darkgrey;
     color: white;
+}
+
+a {
+    color: purple;
+}
+
+a:hover {
+    color: pink;
 }
