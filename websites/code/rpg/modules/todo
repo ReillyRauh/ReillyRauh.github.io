@@ -1,0 +1,2 @@
+1. Fix issue (survivor class has no setter only a getter, cannot set things such as health);
+2. Test scripts
