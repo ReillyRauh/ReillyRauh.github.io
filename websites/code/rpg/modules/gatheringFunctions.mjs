@@ -1,6 +1,6 @@
 export { findWater, findFood, buildShelter }
 import * as Survivor from './survivors.mjs';
-import * as Animal from './animals.mjs';
+import * as Animal from './arrays.mjs';
 
 export let currentWater = 0;
 export let currentFood = 0;

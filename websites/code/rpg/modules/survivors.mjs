@@ -118,3 +118,20 @@ const Bob = new Survivor('Bob');
 const Sam = new Survivor('Sam');
 const Ching = new Survivor('Ching');
 const Osama = new Survivor('Osama');
+
+class Shelter {
+    constructor() {
+        this._isBuilt = false;
+        this._health = 0;
+    }
+
+    damage(amount) {
+        this._health =- amount;
+    }
+
+    build() {
+        this._isBuilt = true;
+    }
+
+    
+}
