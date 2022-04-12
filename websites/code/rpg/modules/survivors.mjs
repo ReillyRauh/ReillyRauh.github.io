@@ -1,10 +1,8 @@
 export { Clarissa, Ching, Bob, Sam, Osama, Survivor }
 
-import * as Survivor from './survivors.mjs';
+import * as Survivors from './survivors.mjs';
 import * as gather from './gatheringFunctions.mjs';
-
-let currentFood = gather.currentFood
-let currentWater = gather.currentWater
+import { currentFood, currentWater } from './gatheringFunctions.mjs'
 
 class Survivor {
     constructor(name) {
@@ -125,6 +123,14 @@ class Shelter {
         this._health = 0;
     }
 
+    get health() {
+        return this._health
+    }
+
+    get build() {
+        return this._isBuilt
+    }
+
     damage(amount) {
         this._health =- amount;
     }
@@ -133,5 +139,10 @@ class Shelter {
         this._isBuilt = true;
     }
 
-    
+    destroy() {
+        this._isBuilt = false;
+        this._health = 0;
+    }
 }
+
+export const shelter = new Shelter()
