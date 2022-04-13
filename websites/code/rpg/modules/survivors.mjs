@@ -1,8 +1,8 @@
-export { Clarissa, Ching, Bob, Sam, Osama, Survivor }
+export { Clarissa, Ching, Bob, Sam, Osama, Survivor, survivorsArray }
 
 import * as Survivors from './survivors.mjs';
 import * as gather from './gatheringFunctions.mjs';
-import { currentFood, currentWater } from './gatheringFunctions.mjs'
+import { currentFood, currentWater } from './gatheringFunctions.mjs';
 
 class Survivor {
     constructor(name) {
@@ -109,6 +109,32 @@ class Survivor {
             }
         }
     }
+
+    drink() {
+        if (this._thirst < 100) {
+            if (currentWater > 0) {
+                let useableWater = currentWater * 2;
+                let drinkAmount = useableWater - this.thirst;
+                let lesserDrink = this._hunger - useableWater;
+
+                if (drinkAmount > 0) {
+                    this._thirst += drinkAmount;
+                } else if (lesserDrink > 0) {
+                    this._thirst += lesserDrink
+                } else {
+                    console.log(`Your current food is ${useableWater} gallons of water, get more water!`);
+                }
+            }
+        }
+    }
+
+    sleep() {
+        if (!this._isDead) {
+            if (this._energy < 100) {
+                this._energy = 100;
+            }
+        }
+    }
 }
 
 const Clarissa = new Survivor('Clarissa');
@@ -116,6 +142,7 @@ const Bob = new Survivor('Bob');
 const Sam = new Survivor('Sam');
 const Ching = new Survivor('Ching');
 const Osama = new Survivor('Osama');
+const survivorsArray = [Clarissa, Bob, Sam, Ching, Osama]
 
 class Shelter {
     constructor() {

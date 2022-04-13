@@ -1,6 +1,6 @@
 import * as gather from './gatheringFunctions.mjs'
 import * as arrayList from './arrays.mjs'
-import { Survivor } from './survivors.mjs'
+import { Survivor, survivorsArray } from './survivors.mjs'
 
 export let currentWeather = 'Clear'
 export function weatherChange() {
@@ -64,4 +64,18 @@ export function weatherDamage() {
     } else {
         return 'There is no structure';
     }
+}
+
+export function chooseSurvivor() {
+    for (let i = 0; i > Survivor.survivorsArray.length; i++) {
+        if (Survivor.survivorsArray[i].energy > 50) {
+            break
+            
+            return survivorsArray[i]
+        }
+    }
+}
+
+export function sleep(survivor) {
+    survivor.sleep();
 }
