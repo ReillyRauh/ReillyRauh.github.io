@@ -1,0 +1,26 @@
+* {
+    background-color: black;
+    color: rgb(0, 255, 0);
+    font-family: 'Quicksand', sans-serif;
+}
+
+nav {
+    text-align: center;
+}
+
+nav h1 {
+    font-size: 45px;
+}
+
+nav li {
+    display: inline-block;
+    border: 2px solid rgb(0, 255, 0);
+    padding: 5px;
+    font-size: 25px;
+}
+
+#clock {
+    text-align: center;
+    margin-top: 1in;
+    font-size: 180px;
+}
