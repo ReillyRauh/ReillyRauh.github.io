@@ -76,6 +76,18 @@ h4 {
     cursor: pointer;
 }
 
+#monke {
+    background-image: url(https://th.bing.com/th/id/R.cd684e19ffcf817d274532d92e61691a?rik=tkEidMvL1ZcSbQ&pid=ImgRaw&r=0);
+    background-position: center;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-color: rgb(254, 186, 27);
+}
+
+#monke a {
+    color: black;
+}
+
 .option:hover {
     text-decoration: underline;
     opacity: 50%;
