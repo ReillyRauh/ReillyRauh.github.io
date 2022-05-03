@@ -33,7 +33,6 @@ h4 {
 
 .option {
     padding: 20px 20px;
-    background-color: cornflowerblue;
     color: white;
     transition: opacity 2s;
 }
@@ -91,10 +90,10 @@ h4 {
 .option:hover {
     text-decoration: underline;
     opacity: 50%;
+    color: blue;
 }
 
 .option a:hover {
-    color: blue;
     opacity: 100%;
 }
 

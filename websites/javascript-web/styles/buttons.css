@@ -1,0 +1,46 @@
+* {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav li {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+#button {
+    padding: 10px 30px;
+    text-align: center;
+    font-size: 25px;
+    display: inline-block;
+}
+
+#button:hover {
+    cursor: pointer;
+}
+
+.move-around {
+    animation-name: moveAround;
+    animation-duration: 10s;
+}
+
+@keyframes moveAround {
+    0% {
+        font-size: 25px
+    }
+    25% {
+        font-size: 50px;
+    }
+    50% {
+        font-size: 150px;
+    }
+    75% {
+        font-size: 50px;
+    }
+    100% {
+        font-size: 25px;
+    }
+}

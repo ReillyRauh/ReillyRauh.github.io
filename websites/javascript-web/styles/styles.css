@@ -31,3 +31,9 @@
     color: rgb(0, 255, 0);
     font-family: 'Quicksand', sans-serif;
 }
+
+#list #slider {
+    background-color: pink;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+}
