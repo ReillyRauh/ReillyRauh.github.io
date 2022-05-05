@@ -47,27 +47,39 @@ h4 {
 
 #open-box {
     cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #cheatsheet {
     background-image: url(./images/R.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #dasmotos {
     background-image: url(./images/finnish.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #ccf {
     background-image: url(./images/letters.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #blog {
     background-image: url(https://cdn2.newsok.biz/cache/r960-7b8d2ba5d3d17581b093ec811f525ff6.jpg);
     overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #teacozy {
     background-image: url(./websites/tea-cozy/images/img-locations-background.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #up-cheat {
@@ -107,4 +119,16 @@ a {
         color: black;
     }
     
+}
+
+#changelogs h3 {
+    background-color: white;
+    color: black;
+    font-size: 25px;
+    border: 2px solid black;
+    margin: 15px 15px;
+}
+
+#changelogs {
+    border: 1px solid black;
 }

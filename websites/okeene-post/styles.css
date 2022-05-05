@@ -131,8 +131,38 @@ a {
     justify-content: space-around;
 }
 
+#menu {
+    background-color: cornflowerblue;
+    color: black;
+    width: 25%;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    display: none;
+}
+
 @media only screen and (max-width: 600px) {
     nav ul {
+        margin: 0;
+        padding: 0;
+        width: 60px;
+        position: fixed;
+        height: 100%;
+        overflow: auto;
+    }
+    nav a {
+        display: none;
+    }
+    #post-title {
+        border-bottom: 3px solid black;
+    }
+    #recent-news {
+        display: block;
+    }
+    #recent-news ul {
+        word-wrap: break-word;
+    }
+    nav #menu {
         display: block;
     }
 }
