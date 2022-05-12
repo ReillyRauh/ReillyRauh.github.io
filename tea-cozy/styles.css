@@ -1,0 +1,96 @@
+/* Global */
+body {
+    background-color: black;
+    font-size: 22px;
+    color: seashell;
+    font-family: Helvetica;
+    opacity: 0.9;
+    text-align: center;
+}
+
+/* Header */
+nav {
+    text-align: right;
+    width: 100%;
+    padding: 69px 0;
+    border-bottom: 1px solid seashell;
+    display: fixed;
+}
+
+nav ul {
+    display: inline;
+}
+
+nav a {
+    text-decoration: underline;
+    color: white;
+}
+
+nav img {
+    height: 50px;
+    margin-left: 10px;
+    float: left;
+}
+
+/* Statement */
+#statement {
+    background: url(./images/img-mission-background.webp);
+    height: 700px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#state-text {
+    background-color: black;
+    width: 100%;
+}
+
+/* Tea of the Month */
+#totm {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#totm-items {
+    align-content: space-between;
+}
+
+.item {
+    display: inline-block;
+}
+
+.item-img {
+    width: 300px;
+    height: 200px;
+}
+
+.item-text {
+    margin-top: 10px;
+}
+
+/* Locations */
+#location {
+    background-image: url(./images/img-locations-background.webp);
+    height: 500px;
+    width: 1200px;
+}
+
+#locations {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#locations-hold {
+    background-color: black;
+    width: 300px;
+}
+
+#location {
+    display: inline-block;
+}

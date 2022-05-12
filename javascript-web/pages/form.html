@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+    <head>
+        <title>Form Test Page</title>
+        <link href="../styles/form.css" rel="stylesheet" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <nav>
+            <li>
+                <a href="../index.html"><ul>Home</ul></a>
+            </li>
+        </nav>
+        <form name="nameForm" id="name-form">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="fname" required/><br>
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lname" required/><br>
+            <label for="age">Age</label>
+            <input type="number" id="age" name="age" required/><br>
+            <input type="submit" value="Submit" />
+        </form>
+        <div id="response">
+            
+        </div>
+
+        <script src="../scripts/form.js"></script>
+    </body>
+</html>

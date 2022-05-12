@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+    <head>
+        <title>JavaScript Test Site</title>
+        <link href="./styles/styles.css" rel="stylesheet" />
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+        </style>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Hello and welcome to JavaScript testing site</h1>
+        <div id="time">
+            <h4 id="clock"></h4>
+        </div>
+        <div id="neat-tricks">
+            <h2 id="click-me1">Click Me!</h2>
+        </div>
+        <div id="list">
+            <a class="list-holder" href="../../index.html"><h2 class="list-obj" id="home">Return to Page Portal</h2></a>
+            <a class="list-holder" href="./pages/digital-clock.html"><h2 class="list-obj" id="digital">Digital Clock</h2></a>
+            <a class="list-holder" href="./pages/slider.html"><h2 class="list-obj" id="slider">Slider Test</h2></a>
+            <a class="list-holder" href="./pages/button.html"><h2 class="list-obj" id="buttons">Button Test</h2></a>
+            <a class="list-holder" href="./pages/form.html"><h2 class="list-obj" id="form">Form Test</h2></a>
+        </div>
+
+        <script> // click-me1 Script
+            clickMe1 = document.getElementById('click-me1')
+            let clickCount = 0
+            let ableToHold = false;
+
+            function randomColor() {
+                const r = Math.floor(Math.random() * 255) + 1;
+                const g = Math.floor(Math.random() * 255) + 1;
+                const b = Math.floor(Math.random() * 255) + 1;
+
+                if (clickCount < 5) {
+                    clickCount + 1;
+                    clickMe1.style.backgroundColor = `rgb(${r}, ${g}, ${b})`
+                } else if (clickCount > 5) {
+                    clickMe1.innerHTML = 'Hold Me!';
+                    clickMe1.style.backgroundColor = 'white';
+                    ableToHold = true;
+                }
+            }
+
+
+            clickMe1.onmousedown = function(){
+                if (ableToHold = true) {
+                    clickMe1.innerHTML = 'Release Me!';
+                } else {
+                    return
+                }
+            }
+
+            clickMe1.onmouseup = function(){
+                if (ableToHold = true) {
+                    clickMe1.style.display = 'none';
+                    document.getElementById('list').style.display = 'block';
+                    ableToHold = false
+                } else {
+                    return
+                }
+            }
+
+            document.getElementById('click-me1').onclick = randomColor
+        </script>
+        <script src="./scripts/funStuff.js"></script>
+        <script src="./scripts/clock.js" ></script>
+    </body>
+</html>

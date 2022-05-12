@@ -1,0 +1,35 @@
+* {
+    background-color: black;
+    color: rgb(0, 255, 0);
+    font-family: 'Quicksand', sans-serif;
+}
+
+nav {
+    text-align: center;
+}
+
+nav h1 {
+    font-size: 45px;
+}
+
+nav li {
+    display: inline-block;
+    border: 1px solid rgb(0, 255, 0);
+    font-size: 25px;
+}
+
+nav ul a {
+    transition: 2s color, 2s background-color;
+    text-decoration: none;
+}
+
+nav ul a:hover {
+    color: black;
+    background-color: rgb(0, 255, 0);
+}
+
+#clock {
+    text-align: center;
+    margin-top: 1in;
+    font-size: 180px;
+}

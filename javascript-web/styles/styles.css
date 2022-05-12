@@ -1,0 +1,39 @@
+* {
+    text-align: center;
+}
+
+#time {
+    background-color: aquamarine;
+    font-weight: bold;
+}
+
+#list {
+    display: none;
+}
+
+#list a {
+    text-decoration: none;
+    cursor: pointer;
+    transition: opacity 2s;
+}
+
+#list a:hover {
+    opacity: 20;
+}
+
+#list .list-obj {
+    padding: 20px;
+    font-size: 30px;
+}
+
+#list #digital {
+    background-color: black;
+    color: rgb(0, 255, 0);
+    font-family: 'Quicksand', sans-serif;
+}
+
+#list #slider {
+    background-color: pink;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+}

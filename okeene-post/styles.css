@@ -1,0 +1,168 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightblue;
+    color: black;
+    text-align: center;
+}
+
+nav {
+    text-align: left;
+    background-color: black;
+    position: sticky;
+}
+
+nav ul {
+    display: inline-block;
+    background-color: black;
+    padding: 20px;
+    transition: background-color 2s;
+    margin: 0 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: lightblue;
+    font-weight: bolder;
+    transition: color 2s;
+}
+
+#post-title {
+    border: 3px solid black;
+    border-bottom: 0px;
+    margin: 0px;
+    padding: 10px;
+    font-size: 58px;
+    background-color: lightblue;
+    text-align: center;
+}
+
+#recent-news {
+    margin: 10px 0;
+    align-content: left;
+    display: inline-flex;
+    border: 3px solid black;
+}
+
+#recent-news ul {
+    max-width: 4in;
+    max-height: 4in;
+    min-width: 3in;
+    min-height: 3in;
+    font-size: 18px;
+    padding: 20px;
+}
+
+nav ul:hover {
+    background-color: lightblue;
+}
+
+nav a:hover {
+    color: black;
+}
+
+.post-picture {
+    max-height: 8in;
+    max-width: 8in;
+    height: 4in;
+    width: 4in;
+    min-height: 3in;
+    min-width: 3in;
+}
+
+.item-img {
+    max-height: 5in;
+    max-width: 5in;
+    min-width: 3in;
+    min-height: 3in;
+    padding-right: 10px;
+}
+
+.item {
+    border: 3px solid black;
+    display: flex;
+    padding: 10px 10px;
+    margin: 10px;
+}
+
+.item-text {
+    font-size: 23px;
+    padding: 10px;
+    font-weight: bolder;
+    justify-self: flex-start;
+}
+
+.cost {
+    color: blue;
+}
+
+.item-info {
+    border: 5px solid black;
+    border-radius: 20px;
+    padding: 10px 10px;
+    font-size: 15px;
+    transition: font-size 1s;
+    color: black;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+.item-info:hover {
+    font-size: 23px;
+}
+
+.err {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+    font-size: 56px;
+}
+
+.errS {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+    font-size: 89px;
+    padding: 1px;
+    margin: 1px;
+}
+
+#items {
+    justify-content: space-around;
+}
+
+#menu {
+    background-color: cornflowerblue;
+    color: black;
+    width: 25%;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    nav ul {
+        margin: 0;
+        padding: 0;
+        width: 60px;
+        position: fixed;
+        height: 100%;
+        overflow: auto;
+    }
+    nav a {
+        display: none;
+    }
+    #post-title {
+        border-bottom: 3px solid black;
+    }
+    #recent-news {
+        display: block;
+    }
+    #recent-news ul {
+        word-wrap: break-word;
+    }
+    nav #menu {
+        display: block;
+    }
+}
