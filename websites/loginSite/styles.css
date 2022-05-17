@@ -1,0 +1,21 @@
+nav {
+    float: right;
+}
+
+.centered {
+    position:absolute;
+    width:200px;
+    height:100px;
+    left:50%;
+    top:50%;
+    margin-left:-50px;
+    margin-top:-50px;
+}
+
+.centered form button {
+    left: 50%;
+}
+
+.centered #loginForm {
+    display: none;
+}

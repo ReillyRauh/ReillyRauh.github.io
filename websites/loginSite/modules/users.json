@@ -1,0 +1,32 @@
+{
+    "user":{
+        "id": 1,
+        "username": "obamarox",
+        "password": "password123",
+        "isAdmin": false
+    },
+    "user":{
+        "id": 2,
+        "username": "yourmother",
+        "password": "notpassword",
+        "isAdmin": false
+    },
+    "user":{
+        "id": 3,
+        "username": "Chicken",
+        "password": "ob123",
+        "isAdmin": false
+    },
+    "user":{
+        "id": 4,
+        "username": "chicken",
+        "password": "notanalt",
+        "isAdmin": false
+    },
+    "user":{
+        "id": 5,
+        "username": "Admin",
+        "password": "12345",
+        "isAdmin": true
+    }
+}
